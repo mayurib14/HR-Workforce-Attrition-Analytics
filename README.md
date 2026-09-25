@@ -1,14 +1,10 @@
-# HR-Workforce-Attrition-Analytics
-Interactive HR Analytics and Employee Attrition Dashboard built using Excel, Power Query, Python, Power BI and DAX.
-
+# HR-Workforce-Attrition-Analytics- Project
 An end-to-end **HR data analytics project** focused on analyzing employee attrition and identifying the key factors associated with employee turnover. This project covers the complete workflow: **data cleaning and preprocessing using Python**, followed by **data analysis, DAX calculations, and interactive dashboard development using Power BI**.
 
 ## 📊 Project Overview & Core Findings
-
 Instead of presenting only overall employee statistics, this project provides a detailed view of **attrition patterns, retention factors, and employee risk areas** through an interactive two-page Power BI dashboard with Drill-through analysis.
 
 Key insights discovered:
-
 * **Overall Attrition:** The overall employee attrition rate is **16.12%**, providing a baseline for understanding employee turnover.
 * **Overtime Impact:** Employees working overtime show a significantly higher attrition rate of **30.53%**, highlighting overtime as an important factor associated with employee turnover.
 * **Commute Distance:** Employees with longer commute distances show higher attrition, reaching up to **42%** beyond 10 km.
@@ -21,9 +17,7 @@ The dashboard allows users to move from the **overall HR Attrition Overview** to
 
 🛠️ Tech Stack & Workflow
 ### 1. Data Cleaning & Preprocessing (Python)
-
 The raw dataset (`HR-Employee.csv`) was processed using **Python (Pandas)** to ensure data quality and prepare the dataset for Power BI analysis.
-
 * Handled missing values and verified data types.
 * Cleaned and standardized categorical columns.
 * Prepared and transformed relevant fields for HR analysis.
@@ -31,9 +25,7 @@ The raw dataset (`HR-Employee.csv`) was processed using **Python (Pandas)** to e
 * *The cleaning script can be found in:* `hr_cleaning.py`.
 
 ### 2. Data Modeling & Visualization (Power BI)
-
 The cleaned dataset was imported into **Power BI** to develop an interactive HR Attrition & Retention dashboard.
-
 * Designed an interactive **2-page dashboard** with a clean and professional UI.
 * Developed **DAX measures** to calculate dynamic metrics such as Attrition Rate, Attrition Count, and Average Monthly Income.
 * Created **Page 1 — HR Attrition Overview** with KPI cards, charts, and filters for Department, Job Role, and Age Group.
