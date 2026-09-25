@@ -15,7 +15,7 @@ Key insights discovered:
 The dashboard allows users to move from the **overall HR Attrition Overview** to detailed **Employee Retention & Risk Analysis** using Drill-through by **Job Role and Department**.
 
 
-🛠️ Tech Stack & Workflow
+🛠️ ***Tech Stack & Workflow***
 ### 1. Data Cleaning & Preprocessing (Python)
 The raw dataset (`HR-Employee.csv`) was processed using **Python (Pandas)** to ensure data quality and prepare the dataset for Power BI analysis.
 * Handled missing values and verified data types.
@@ -32,7 +32,7 @@ The cleaned dataset was imported into **Power BI** to develop an interactive HR 
 * Developed **Page 2 — Employee Retention & Risk Analysis** using **Drill-through** functionality for detailed Job Role and Department analysis.
 * Implemented interactive visuals to analyze relationships between **Overtime, Job Role, Promotion, Environment Satisfaction, Job Satisfaction, and Work-Life Balance**.
 
-📂 Project Structure
+📂 ***Project Structure***
 ├── HR-Employee.csv          # Raw HR Dataset
 ├── hr_cleaning.py           # Python Data Cleaning Script
 ├── HR_Analytics.pbix        # Power BI Dashboard Project File
